@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <style>
+            li {
+                display: inline;
+                margin-right: 20px;
+            }
+        </style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="frames.html">Старые фреймы</a></li>
+        <li><a href="iframe.html">Плавающий фрейм</a></li>
+    </ul>
+    <form action="request.php" method="POST" target="frame" style="width: 30%;">
+        <fieldset>
+            <legend>Пример формы</legend>
+            <input type="text" name="name" placeholder="Ваше имя">
+            <input type="submit" value="Отправить">
+        </fieldset>
+    </form>
+    <iframe width="30%" height="300" name="frame" srcdoc="Тут будет результат отправки формы"></iframe>
+</body>
+</html>
