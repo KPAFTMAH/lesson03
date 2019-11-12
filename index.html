@@ -22,47 +22,47 @@
 
 <body>
 
-    <form action="request.php" method="POST" enctype="application/x-www-form-urlencoded">
+<form action="request.php" method="POST" enctype="application/x-www-form-urlencoded">
     <fieldset>
         <fieldset>
-                <legend>Контактные данные</legend>
-                <label>ФИО</label> <input type="text" required placeholder="ФИО"><br>
-                <label>E-mail</label> <input type="email" required placeholder="E-mail"><br>
-                <label>Пароль</label> <input type="password" required placeholder="пароль"><br>
-                <label>Адрес сайта</label> <input type="text"  placeholder="http://"><br>
-            </fieldset>
-            <fieldset>
-                <legend>Дополнительные данные</legend>
-                <label>Пол</label>
-                <select name="select[]" id="selection" size="1">
-                    <option value="мужской" selected>Мужской</option>
-                    <option value="женский">Женский</option>
-                </select><br>
-                <label>Расскажите о себе</label><textarea name="textarea" id="" cols="45" rows="3" wrap="soft" maxlength="450"placeholder="Расскажите нам о себе"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>Предпочтения в литературе</legend>
-                <div>
-                    <input type="checkbox" name="checkbox[]" value="Классика">Классическая литература<br>
-                    <input type="checkbox" name="checkbox[]" value="детективы">Детективы<br>
-                    <input type="checkbox" name="checkbox[]" value="ужасы">Ужасы<br>
-                    <input type="checkbox" name="checkbox[]" value="романы">Романы<br>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Согласны ли вы с правилами сайта?</legend>
-                <div>
-                    <input type="radio" name="radio" value="да" checked> Да <br>
-                    <input type="radio" name="radio" value="Нет"> Нет <br>
-                </div>
-            </fieldset>
-            <fieldset>
-                <input type="submit" value="Отправить форму">
-                <input type="reset" value="Очистить форму">
-            </fieldset>
+            <legend>Контактные данные</legend>
+            <label>ФИО <input type="text" required placeholder="ФИО"></label><br>
+            <label>E-mail <input type="email" required placeholder="E-mail"></label><br>
+            <label>Пароль <input type="password" required placeholder="пароль"></label><br>
+            <label>Адрес сайта <input type="text"  placeholder="http://"></label><br>
         </fieldset>
-        
-    </form>
+        <fieldset>
+            <legend>Дополнительные данные</legend>
+            <label for="male">Пол</label>
+            <select name="select[]" id="selection" size="1" id="male">
+                <option value="мужской" selected>Мужской</option>
+                <option value="женский">Женский</option>
+            </select><br>
+            <label for="about">Расскажите о себе</label><textarea name="textarea" id="about" cols="45" rows="3" wrap="soft" maxlength="450"placeholder="Расскажите нам о себе"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Предпочтения в литературе</legend>
+            <div>
+                <input type="checkbox" name="checkbox[]" value="Классика">Классическая литература<br>
+                <input type="checkbox" name="checkbox[]" value="детективы">Детективы<br>
+                <input type="checkbox" name="checkbox[]" value="ужасы">Ужасы<br>
+                <input type="checkbox" name="checkbox[]" value="романы">Романы<br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Согласны ли вы с правилами сайта?</legend>
+            <div>
+                <input type="radio" name="radio" value="да" checked> Да <br>
+                <input type="radio" name="radio" value="Нет"> Нет <br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Отправить форму">
+            <input type="reset" value="Очистить форму">
+        </fieldset>
+    </fieldset>
+      
+</form>
 
 </body>
 
