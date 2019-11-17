@@ -1,0 +1,28 @@
+/* (0,0,1) */
+h1 {
+    color: blue;
+}
+/* (1,0,) */
+#title {
+    color: red;
+}
+/* (0,1,0) */
+.page-title {
+    color: green;
+}
+/* (1,0,0) */
+#main-nav {
+    color: gray;
+}
+/* (0,1,0) */
+.discount {
+    color: orange;
+}
+/* (0,0,1) */
+a {
+    color: inherit;
+}
+/* (1,0,1) */
+h1#title {
+    color: green;
+}
