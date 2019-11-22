@@ -1,0 +1,35 @@
+table {
+    width: 400px;
+    text-align: center;
+}
+tr {
+    height: 25px;
+}
+/* td {
+    background-color: inherit;
+} */
+.one>td {
+    background-color: hsl(0, 100%, 50%);
+    /* color: blue; */
+}
+.two>td {
+    background-color: #ffa500;
+}
+.four>td {
+    background-color: rgb(255, 255, 0);
+}
+.five>td {
+    background-color: hsl(120, 100%, 26%);
+}
+.six>td {
+    background-color: cyan;
+}
+.seven>td {
+    background-color: blue;
+}
+.eight>td {
+    background-color: violet;
+}
+#alpha {
+    opacity: 0.5;
+}
