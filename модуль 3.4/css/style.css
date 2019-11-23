@@ -2,115 +2,115 @@ table {
     width: 400px;
     text-align: center;
 }
-.red1 {
+.red .hex {
     background-color: #ff0000;
     color: royalblue;
 }
-.red2 {
+.red .rgb {
     background-color: rgb(255, 0, 0);
     color: royalblue;
 }
-.red3 {
+.red .hsl {
     background-color: hsl(0, 100%, 50%);
     color: royalblue;
 }
-.red4 {
+.red .alpha {
     background-color: hsla(0, 100%, 50%, 0.5);
     color: royalblue;
 }
-.two1 {
+.orange .rgb {
     background-color: rgb(255, 165, 0);
     color: blue;
 }
-.two2 {
+.orange .hex {
     background-color: #ffa500;
     color: blue;
 }
-.two3 {
+.orange .hsl {
     background-color: hsl(39, 100%, 50%);
     color: blue;
 }
-.two4 {
+.orange .alpha {
     background-color: hsla(39, 100%, 50%, 0.5);
     color: blue;
 }
-.four1 {
+.yellow .rgb {
     background-color: rgb(255, 255, 0);
     color: blue;
 }
-.four2 {
+.yellow .hex {
     background-color: #ffff00;
     color: blue;
 }
-.four3 {
-    background-color: hsl(60, 100%, 50%);
+.yellow .hsl {
+    background-color: hsla(60, 100%, 50%);
     color: blue;
 }
-.four4 {
+.yellow .alpha {
     background-color: hsla(60, 100%, 50%, 0.5);
     color: blue;
 }
-.five1 {
+.green .rgb {
     background-color: rgb(0, 128, 0);
     color: blue;
 }
-.five2 {
+.green .hex {
     background-color: #008000;
     color: blue;
 }
-.five3 {
+.green .hsl {
     background-color: hsl(120, 100%, 25%);
     color: blue;
 }
-.five4 {
-    background-color: hsl(120, 100%, 25%, 0.5);
+.green .alpha {
+    background-color: hsla(120, 100%, 25%, 0.5);
     color: blue;
 }
-.six1 {
+.cyan .rgb {
     background-color: rgb(0, 255, 255);
     color: blue;
 }
-.six2 {
+.cyan .hex {
     background-color: #00ffff;
     color: blue;
 }
-.six3 {
+.cyan .hsl {
     background-color: hsl(180, 100%, 50%);
     color: blue;
 }
-.six4 {
-    background-color: hsl(180, 100%, 50%, 0.5);
+.cyan .alpha {
+    background-color: hsla(180, 100%, 50%, 0.5);
     color: blue;
 }
-.seven1 {
+.blue .rgb {
     background-color: rgb(0, 0, 255);
     color: rgb(0, 0, 0);
 }
-.seven2 {
+.blue .hex {
     background-color: #0000ff;
     color: rgb(0, 0, 0);
 }
-.seven3 {
+.blue .hsl {
     background-color: hsl(240, 100%, 50%);
     color: rgb(0, 0, 0);
 }
-.seven4 {
+.blue .alpha {
     background-color: hsl(240, 100%, 50%, 0.5);
     color: rgb(0, 0, 0);
 }
-.eight1 {
+.violet .rgb {
     background-color: rgb(238, 130, 238);
     color: blue;
 }
-.eight2 {
+.violet .hex {
     background-color: #ee82ee;
     color: blue;
 }
-.eight3 {
+.violet .hsl {
     background-color: hsl(300, 76%, 72%);
     color: blue;
 }
-.eight4 {
+.violet .alpha{
     background-color: hsl(300, 76%, 72%,0.5);
     color: blue;
 }
