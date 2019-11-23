@@ -2,34 +2,115 @@ table {
     width: 400px;
     text-align: center;
 }
-tr {
-    height: 25px;
+.red1 {
+    background-color: #ff0000;
+    color: royalblue;
 }
-/* td {
-    background-color: inherit;
-} */
-.one>td {
+.red2 {
+    background-color: rgb(255, 0, 0);
+    color: royalblue;
+}
+.red3 {
     background-color: hsl(0, 100%, 50%);
-    /* color: blue; */
+    color: royalblue;
 }
-.two>td {
+.red4 {
+    background-color: hsla(0, 100%, 50%, 0.5);
+    color: royalblue;
+}
+.two1 {
+    background-color: rgb(255, 165, 0);
+    color: blue;
+}
+.two2 {
     background-color: #ffa500;
+    color: blue;
 }
-.four>td {
+.two3 {
+    background-color: hsl(39, 100%, 50%);
+    color: blue;
+}
+.two4 {
+    background-color: hsla(39, 100%, 50%, 0.5);
+    color: blue;
+}
+.four1 {
     background-color: rgb(255, 255, 0);
+    color: blue;
 }
-.five>td {
-    background-color: hsl(120, 100%, 26%);
+.four2 {
+    background-color: #ffff00;
+    color: blue;
 }
-.six>td {
-    background-color: cyan;
+.four3 {
+    background-color: hsl(60, 100%, 50%);
+    color: blue;
 }
-.seven>td {
-    background-color: blue;
+.four4 {
+    background-color: hsla(60, 100%, 50%, 0.5);
+    color: blue;
 }
-.eight>td {
-    background-color: violet;
+.five1 {
+    background-color: rgb(0, 128, 0);
+    color: blue;
 }
-#alpha {
-    opacity: 0.5;
+.five2 {
+    background-color: #008000;
+    color: blue;
+}
+.five3 {
+    background-color: hsl(120, 100%, 25%);
+    color: blue;
+}
+.five4 {
+    background-color: hsl(120, 100%, 25%, 0.5);
+    color: blue;
+}
+.six1 {
+    background-color: rgb(0, 255, 255);
+    color: blue;
+}
+.six2 {
+    background-color: #00ffff;
+    color: blue;
+}
+.six3 {
+    background-color: hsl(180, 100%, 50%);
+    color: blue;
+}
+.six4 {
+    background-color: hsl(180, 100%, 50%, 0.5);
+    color: blue;
+}
+.seven1 {
+    background-color: rgb(0, 0, 255);
+    color: rgb(0, 0, 0);
+}
+.seven2 {
+    background-color: #0000ff;
+    color: rgb(0, 0, 0);
+}
+.seven3 {
+    background-color: hsl(240, 100%, 50%);
+    color: rgb(0, 0, 0);
+}
+.seven4 {
+    background-color: hsl(240, 100%, 50%, 0.5);
+    color: rgb(0, 0, 0);
+}
+.eight1 {
+    background-color: rgb(238, 130, 238);
+    color: blue;
+}
+.eight2 {
+    background-color: #ee82ee;
+    color: blue;
+}
+.eight3 {
+    background-color: hsl(300, 76%, 72%);
+    color: blue;
+}
+.eight4 {
+    background-color: hsl(300, 76%, 72%,0.5);
+    color: blue;
 }
