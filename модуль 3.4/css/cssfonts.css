@@ -55,7 +55,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Lobster Two', cursive; 
+    font-family: 'Lobster Two', normal; 
     font-weight: 700;
 }
 .credits {
