@@ -1,0 +1,72 @@
+/* Подключаемый шрифт */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap');
+
+/* h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+} */
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/robotocondensed-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;   
+
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+/*размер шрифтов */
+
+html {
+    font-size: 16px;
+}
+body {
+    font-size: 1.5em;
+}
+
+
+/* Панель */
+.panel {
+    background-color: #ddd;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    /* font-size: 2rem; */
+    margin-bottom: 0.5em;
+    font-family: 'roboto', sans-serif;
+}
+.panel>h3 {
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster Two', normal; 
+    font-weight: 700;
+}
+.credits {
+    font-family: 'roboto', sans-serif;
+    font-size: 200%;
+}
+.bold {
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}
+.normal {
+    font-family: 'robotor', sans-serif;
+    font-size: 1.45rem;
+}
