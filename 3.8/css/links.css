@@ -1,0 +1,43 @@
+html {
+    font-size: 2em;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+p {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    height: 50px;
+    width: 200px;
+    font-variant: small-caps;
+}
+p:hover {
+    cursor: help;
+}
+a:link {
+    color: coral;
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+}
+a:hover {
+    color: rgb(248, 234, 41);
+    text-decoration: underline rgba(19, 2, 255, 0.295);
+    cursor: pointer;
+}
+a:focus {
+    color: indigo;
+    outline: rgb(148, 148, 148);
+    outline-style: dashed;   
+}
+a:active {
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+a:hover:focus {
+    color: rgb(248, 234, 41);
+    outline: none;
+}
