@@ -40,4 +40,5 @@ a:active {
 a:hover:focus {
     color: rgb(248, 234, 41);
     outline: none;
+    text-decoration: underline red;
 }
