@@ -11,8 +11,8 @@ body {
     background-color: rgb(219, 166, 20);
 }
 .url {
+    border: 2px solid transparent;
     margin: 0px;
-    padding: 2px;
     text-align: center;
     width: 292px;
     display: inline-block;
@@ -29,9 +29,9 @@ a {
 
 .url:hover {
     border: 2px solid brown;
-    padding: 0px;
     border-radius: 10%;
     text-decoration: underline;
     color: blue;
     background-color: rgba(20, 184, 176, 0.658);
+    cursor: pointer;
 }
