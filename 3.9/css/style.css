@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color: rgb(219, 166, 20);
+}
+.container {
+    
+}
+.links {
+    margin: 50px auto;
+    width: 600px;
+    background-color: rgb(219, 166, 20);
+}
+.url {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+    width: 292px;
+    display: inline-block;
+}
+img {
+    height: inherit;
+}
+a {
+   border: 2px solid brown;
+   height: 292px;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+.url:hover {
+    border: 2px solid brown;
+    padding: 0px;
+    border-radius: 10%;
+    text-decoration: underline;
+    color: blue;
+    background-color: rgba(20, 184, 176, 0.658);
+}
