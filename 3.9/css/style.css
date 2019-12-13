@@ -25,13 +25,16 @@ a {
    height: 290px;
    border-radius: 50%;
    display: inline-block;
+   text-decoration: none;
 }
 
 .url:hover {
     border: 2px solid brown;
     border-radius: 10%;
-    text-decoration: underline;
-    color: blue;
     background-color: rgba(20, 184, 176, 0.658);
     cursor: pointer;
+}
+a:hover {
+    color: chartreuse;
+    text-decoration: underline;
 }
