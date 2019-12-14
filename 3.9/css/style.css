@@ -32,7 +32,9 @@ a {
     border: 2px solid brown;
     border-radius: 10%;
     background-color: rgba(20, 184, 176, 0.658);
-    cursor: pointer;
     text-decoration: underline;
     color: chartreuse;
+}
+a:hover {
+    cursor: pointer;
 }
