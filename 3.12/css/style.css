@@ -11,7 +11,7 @@ html {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    counter-reset: lmenu;
+    
 }
 
 .container {
@@ -25,26 +25,21 @@ body {
 }
 .menu-nav-ul {
     margin: 5px 0px;
-    /* display: inline-flex; */
-    list-style: none;
-}
-.menu-nav-ul>li {
     display: inline-block;
     margin-left: 7px;
     border-left: 2px solid red;
 }
-.menu-nav-ul>li:hover {
+.menu-nav-ul:hover {
     cursor: pointer;
     background-color: rgba(255, 99, 71, 0.466);
 }
 .menu-left {
-    color: blue;
-    font-size: .9em;
+    font-size: .8em;
     margin-left: 10px;
 }
 .menu-left-ol {
-    display: line;
     list-style: none;
+    counter-reset: lmenu;
 }
 .class::before {
     counter-increment: lmenu;
@@ -58,19 +53,19 @@ body {
 .class:hover::before {
     background-color: salmon;
 }
-
-span {  
+span { 
+    color: blue;
     display: inline-block;
-    margin: 3px 0px;
+    margin: 2px 0px;
     background-color: rgba(54, 54, 136, 0.425);
     width: 250px;
-}
-span:hover::after{
-    content: url(/3.12/img/star.png);
 }
 span:hover {
     background-color: cadetblue;
     cursor: pointer;
+}
+span:hover::after{
+    content: url(/3.12/img/star.png);
 }
 header {
     height: 60px;
