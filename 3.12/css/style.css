@@ -33,12 +33,16 @@ header span {
 .menu-nav li {
     margin: 5px 0px;
     display: inline-block;
-    margin-left: 7px;
-    border-left: 2px solid red;
+    /* margin-left: 7px; */
+    padding-left: 3px;
+    /* border-left: 2px solid red; */
+}
+.menu-nav .line {
+    border-left:  2px solid red;
 }
 .menu-nav li:hover {
     cursor: pointer;
-    background-color: rgba(255, 99, 71, 0.466);
+    background-color: rgba(233, 169, 86, 0.466);
 }
 main {
     min-height: 100vh;
@@ -62,7 +66,7 @@ main {
     margin-right: 3px;
 }
 .menu-left li:hover::before {
-    background-color: salmon;
+    background-color: rgb(247, 179, 171);
     border-left: 4px solid red;
 }
 .menu-left span { 
