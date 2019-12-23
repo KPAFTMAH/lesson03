@@ -33,11 +33,10 @@ header span {
 .menu-nav li {
     margin: 5px 0px;
     display: inline-block;
-    /* margin-left: 7px; */
+    margin-left: -7px;
     padding-left: 3px;
-    /* border-left: 2px solid red; */
 }
-.menu-nav .line {
+.menu-nav li+li {
     border-left:  2px solid red;
 }
 .menu-nav li:hover {
