@@ -11,77 +11,76 @@ html {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    counter-reset: lmenu;
+    
 }
-
 .container {
     min-width: 400px;
     max-width: 800px;
     margin: 0 auto;
 }
+header {
+    height: 130px;
+    text-align: justify;
+}
+header span {
+    font-style: italic;
+    font-size: 2em;
+}
 .menu-nav {
     border-top: 2px dashed brown;
     border-bottom: 2px dashed brown;
 }
-.menu-nav-ul {
+.menu-nav li {
     margin: 5px 0px;
-    /* display: inline-flex; */
-    list-style: none;
-}
-.menu-nav-ul>li {
     display: inline-block;
-    margin-left: 7px;
-    border-left: 2px solid red;
+    margin-left: -7px;
+    padding-left: 3px;
 }
-.menu-nav-ul>li:hover {
+.menu-nav li+li {
+    border-left:  2px solid red;
+}
+.menu-nav li:hover {
     cursor: pointer;
-    background-color: rgba(255, 99, 71, 0.466);
+    background-color: rgba(233, 169, 86, 0.466);
+}
+main {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    margin-top: -130px;
+    padding-top: 130px;
 }
 .menu-left {
-    color: blue;
-    font-size: .9em;
+    list-style: none;
+    counter-reset: lmenu;
+    font-size: .8em;
     margin-left: 10px;
 }
-.menu-left-ol {
-    display: line;
-    list-style: none;
-}
-.class::before {
+.menu-left li::before {
     counter-increment: lmenu;
     content: counter(lmenu) " ";
-    background-color: darkblue;
+    background-color: rgb(72, 167, 255);
     color: white;
     border-left: 4px solid rgb(173, 39, 39);
     border-radius: 15%;
     margin-right: 3px;
 }
-.class:hover::before {
-    background-color: salmon;
+.menu-left li:hover::before {
+    background-color: rgb(247, 179, 171);
+    border-left: 4px solid red;
 }
-
-span {  
+.menu-left span { 
+    color: blue;
     display: inline-block;
-    margin: 3px 0px;
-    background-color: rgba(54, 54, 136, 0.425);
+    margin: 2px 0px;
+    background-color: rgba(95, 95, 238, 0.425);
     width: 250px;
 }
-span:hover::after{
-    content: url(/3.12/img/star.png);
-}
-span:hover {
+.menu-left span:hover {
     background-color: cadetblue;
     cursor: pointer;
 }
-header {
-    height: 60px;
-    font-size: 1.5em;
-    text-align: justify;
-}
-main {
-    min-height: 100vh;
-    padding-bottom: 50px;
-    margin-top: -60px;
-    padding-top: 60px;
+.menu-left span:hover::after{
+    content: url(../img/star.png);
 }
 footer {
     border-top: 2px dashed brown;
