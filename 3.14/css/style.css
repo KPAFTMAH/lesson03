@@ -18,27 +18,38 @@ form span {
 form>fieldset {
     border: 1px solid gray;
     margin: 25px;
-    background-color: rgba(229, 229, 226, 0.459);
+    background-color: rgba(243, 243, 189, 0.459);
 }
-form>fieldset fieldset {
+form fieldset fieldset {
     border: 1px solid gray;
     border-radius: 15px;
     margin-top: 10px;
-    background-color: rgb(222, 222, 223);
+    background-color: rgb(119, 119, 175);
     box-shadow: 1px 2px 3px 1px #000000 ;
 }
-legend {
+select {
+    color: blue;
+    background-color: rgb(248, 247, 247);
+}
+select option {
+    font-size: 50px;
+    font-weight: 900;
+}
+textarea {
+    background-color: burlywood;
+}
+form legend {
     text-align: right;
-    border: 1px dashed gray;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: rgb(189, 188, 190);
+    background-color: rgb(218, 183, 253);
 }
 form input:required {
-    /* border: 1px solid red; */
-    background-color: rgb(255, 232, 232);
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(236, 192, 192);
 }
 .contact input:valid {
-    border: 1px solid black;
+    border: 1px solid rgb(81, 247, 89);
     background-color: chartreuse;
 }
 form>fieldset fieldset:nth-last-child(1) {
@@ -51,20 +62,19 @@ form>fieldset fieldset:nth-last-child(1) button {
     border: 1px solid black;
     border-radius: 10px;
     margin-left: 10px;  
+    box-shadow: 1px 1px black;
 }
-
+form>fieldset fieldset:nth-last-child(1) button:hover {
+    box-shadow: 0px 0px black;
+}
 form>fieldset fieldset:nth-last-child(1) button:active {
     box-shadow:1px 2px 1px 1px #7e7e7e inset;
-    margin-top: 2px;
 }
-/* label:hover {
-    border: 1px dotted black;
-} */
-.check div {
+.check div label {
     margin-left: 10px;
-    margin-bottom: 2px;
-    height: 20px;
-
+}
+.check div label:hover {
+    text-shadow: 0.02em 0.02em 1em blue;
 }
 .check input {
     display: none;
@@ -72,18 +82,16 @@ form>fieldset fieldset:nth-last-child(1) button:active {
 .check label::before {
     content: " ";
     border: 1px solid black;
-    height: 17px;
-    width: 17px;
+    height: 1.1em;
+    width: 1.1em;
     margin-right: 5px;
     display: inline-block;
     background-color: #999;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 .check input:checked+label::before {
-    content: "\2713";
-    font-size: 20px;
-    border: 1px solid black;
-    height: 17px;
-    width: 17px;
+    font-style: italic;
+    content: "V";
+    color: rgb(250, 251, 255);
 }
 
