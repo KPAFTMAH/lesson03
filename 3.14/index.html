@@ -22,27 +22,27 @@
                 <fieldset>
                     <legend>Дополнительные данные</legend>
                     <div><span>Пол:</span>
-                        <select>
-                        <option value="1">Мужской</option>
-                        <option value="2">Женский</option>
+                        <select name="select_male_or_female">
+                        <option value="male" >Мужской</option>
+                        <option value="female">Женский</option>
                         </select>
                     </div>
                     <div><span>О себе:</span> <textarea placeholder=" Напишите о себе "></textarea></div>
                 </fieldset>
                 <fieldset class="check">
                     <legend>Предпочтения в литературе</legend>
-                    <div> <input type="checkbox" id="classic"> <label for="classic">Классическая литература</label>  </div>
-                    <div> <input type="checkbox" id="fantastic"> <label for="fantastic">Научная фантастика</label>  </div>
-                    <div> <input type="checkbox" id="detectiv"> <label for="detectiv">Детективы</label>  </div>
+                    <div> <input type="checkbox" id="classic" name="classic_lit" value="classic_lit"> <label for="classic">Классическая литература</label>  </div>
+                    <div> <input type="checkbox" id="fantastic" name="fantastic_lit" value="fantastic_lit"> <label for="fantastic">Научная фантастика</label>  </div>
+                    <div> <input type="checkbox" id="detectiv" name="detectiv_lit" value="detectiv_lit"> <label for="detectiv">Детективы</label>  </div>
                 </fieldset>
                 <fieldset>
                     <legend>Согласны ли вы с правилами сайта?</legend>
-                    <div><input type="radio" name="radio" id="yes" required checked> <label for="yes">Да, конечно</label> </div> 
-                    <div><input type="radio" name="radio" id="no"> <label for="no">Нет</label></div>
+                    <div><input type="radio" name="rules_yes" id="yes" value="yes" required checked> <label for="yes">Да, конечно</label> </div> 
+                    <div><input type="radio" name="rules_no" id="no" value="no"> <label for="no">Нет</label></div>
                 </fieldset>
                 <fieldset>
                     <legend>Отправка формы</legend>
-                    <div><button type="submit">Отправить</button>
+                    <button type="submit">Отправить</button>
                     <button type="reset">Очистить форму</button>
                 </fieldset>
             </fieldset>
