@@ -91,7 +91,8 @@ form>fieldset fieldset:nth-last-child(1) button:active {
 }
 .check input:checked+label::before {
     font-style: italic;
-    content: "V";
+    content: "\2713";
     color: rgb(250, 251, 255);
+    line-height: 1.1em;
 }
 
