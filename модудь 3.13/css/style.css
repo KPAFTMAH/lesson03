@@ -12,28 +12,25 @@ table {
     height: 300px;
     border-spacing: 10px 0px;
 }
-th  {
-    border-top: 1px solid black;
+th, td {
     border-bottom: 1px solid rgba(128, 128, 128, 0.137);
     border-left: 1px solid black;
-    border-right: 1px solid black;  
+    border-right: 1px solid black; 
+    text-align: center;
+    vertical-align: middle;
+}
+th  {
+    border-top: 1px solid black;
     background-color: rgb(123, 123, 250);
     font-size: 20px;
     color: white; 
     min-width: 200px; 
 }
-td {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    text-align: center;
-    vertical-align: middle;
-}
 tr:last-child td {
     padding: 5px;
     border-bottom: 1px solid black;
 }
-tr:last-child td span {
+tr:last-child span {
     background-color: rgb(26, 26, 252);
     padding: 5px;
     border: 1px solid blue;
@@ -41,7 +38,7 @@ tr:last-child td span {
     color: white;
     font-weight: 600;
 }
-.fonthi {
+tr:nth-child(2) span {
     font-size: 30px;
     font-weight: 700;
     color: rgb(123, 123, 250);
@@ -100,7 +97,6 @@ tr:nth-child(4), tr:nth-child(5) {
     font-weight: 600;
 }
 .table {
-    display: table;
     border-spacing: 10px;
 }
 .table>div {

@@ -20,7 +20,7 @@ body {
 }
 header {
     height: 130px;
-    text-align: justify;
+    text-align: left;
 }
 header span {
     font-style: italic;
@@ -62,7 +62,7 @@ main {
     color: white;
     border-left: 4px solid rgb(173, 39, 39);
     border-radius: 15%;
-    margin-right: 3px;
+    margin-right: 2px;
 }
 .menu-left li:hover::before {
     background-color: rgb(247, 179, 171);
@@ -76,7 +76,7 @@ main {
     width: 250px;
 }
 .menu-left span:hover {
-    background-color: cadetblue;
+    background-color: rgb(59, 122, 124);
     cursor: pointer;
 }
 .menu-left span:hover::after{

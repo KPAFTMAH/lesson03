@@ -1,0 +1,38 @@
+table  {
+    /* border: solid 1px; */
+    width: 500px;
+}
+.RED>.HEX {
+    background-color: #ff0000;
+}
+.RED>.RGB {
+    background-color: red;
+}
+.RED>.HSL {
+    background-color: hsl(0, 100%, 50%);;
+}
+.RED>.ALPHA {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.ORANGE>.HEX {
+    background-color: #ffa500;
+}
+.ORANGE>.RGB {
+    
+}
+.ORANGE>.HSL {
+
+}
+.ORANGE>.ALPHA {
+
+}
+.YELLOW>.HEX {
+
+}
+.YELLOW>.RGB {
+
+}
+.YELLOW>.HSL {
+
+}
+.YELLOW>.ALPHA

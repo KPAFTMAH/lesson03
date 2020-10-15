@@ -62,9 +62,8 @@ form>fieldset fieldset:nth-last-child(1) button:active {
 } */
 .check div {
     margin-left: 10px;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
     height: 20px;
-
 }
 .check input {
     display: none;
@@ -72,18 +71,20 @@ form>fieldset fieldset:nth-last-child(1) button:active {
 .check label::before {
     content: " ";
     border: 1px solid black;
-    height: 17px;
-    width: 17px;
+    border-radius: 20%;
+    height: 0.8em;
+    width: 0.8em;
     margin-right: 5px;
     display: inline-block;
     background-color: #999;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 .check input:checked+label::before {
     content: "\2713";
-    font-size: 20px;
+    font-size: 1em;
+    line-height: 0.8em;
     border: 1px solid black;
-    height: 17px;
-    width: 17px;
+    height: .8em;
+    width: .8em;
 }
 

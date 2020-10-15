@@ -1,0 +1,92 @@
+:root {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 120px;
+    background-color: rgb(252, 36, 36);
+    margin: 0 auto;
+    overflow: auto;
+}
+.container header,main,footer {
+    min-width: 400px;
+    max-width: 800px;
+}
+header {
+    height: 120px;
+    background-color: rgb(190, 236, 226);
+    margin: 0 auto;
+    margin-top: -30px;
+    padding-top: 35px;
+    margin-bottom: -140px;
+    font-size: 3em;
+    box-shadow: 5px 0.01px 60px rgb(101, 155, 143);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(67, 42, 180);
+    
+}
+main {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-top: -120px;
+    margin-bottom: -100px;
+}
+footer {
+    height: 100px;
+    margin-top: -100px;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+.photo {
+    min-width: 400px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.photo>div {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    border-top: 1.5px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+.photo img {
+    border-radius: 10px 10px 0px 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.photo {
+    filter:drop-shadow(3px 3px 10px black) ;
+}
+.photo>div:nth-child(even) {
+    filter: blur(15px);
+}
+.photo>div:nth-child(odd) {
+    filter: brightness(70%) contrast(75%) saturate(5.9);
+}
+.photo>div:first-child {
+    filter: grayscale(0.55);
+    filter: saturate(4.1);
+}
+.photo>div:last-child {
+    filter: sepia(0.92);
+}
+.photo>div:hover {
+    filter: none;
+    transition: all 1s;
+}
+.photo span {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+

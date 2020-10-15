@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+#title {
+    color: red;
+}
+.page-title {
+    color: green;
+}
+/* работаем ниже */
+[href^="#"] {
+    color: gray;
+}
+.discount {
+    color: orange;
+}
+h1, #title {
+    color: green;
+}

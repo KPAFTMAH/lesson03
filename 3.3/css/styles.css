@@ -1,0 +1,21 @@
+ul li a {
+    color: red;
+}
+[href$="last"] {
+    color: green;
+}
+[href^="#menu"] {
+    color: greenyellow;
+}
+h3 span {
+    color: green;
+}
+article p+p {
+    color: fuchsia;
+}
+p span {
+    color: blue;
+}
+p span+span {
+    color: coral;
+}
