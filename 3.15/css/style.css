@@ -85,8 +85,7 @@ footer {
     transition: all 1s;
 }
 .photo>div:active {
-    filter: brightness(150%);
-    filter: drop-shadow(3px 3px 10px gray);
+    filter: hue-rotate(76deg) drop-shadow(3px 3px 10px gray);
     transition: all 1s;
 }
 .photo span {
