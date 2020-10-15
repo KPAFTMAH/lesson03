@@ -88,9 +88,10 @@ footer {
     filter: hue-rotate(76deg) drop-shadow(3px 3px 10px gray);
     transition: all 0.5s;
 }
+
 .photo span {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    
+    color: darkorange;
 }
 
 
