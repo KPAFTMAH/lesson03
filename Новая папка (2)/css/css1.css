@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+}
+#title {
+    color: red;
+}
+.page-title {
+    color: green;
+}
+
+#main-nav {
+    color: gray;
+}
+.discount {
+    color: orange;
+}
+
+h1, #title {
+    color: green;
+}
+li, a {
+    color: grey;
+}
